@@ -6,7 +6,7 @@
         </xpath>
     </template>
     
-    <template id="_assets_primary_variables" inherit_id="web._assets_primary_variables">
+    <template id="_assets_primary_variables" inherit_id="web.assets_backend_legacy_lazy">
         <xpath expr="link[last()]" position="after">
             <link rel="stylesheet" type="text/scss" href="theme_herobalancer/static/scss/primary_variables.scss"/>
         </xpath>
