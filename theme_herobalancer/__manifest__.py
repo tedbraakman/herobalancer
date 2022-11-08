@@ -5,7 +5,7 @@
     'author': 'Chef R&D',
     'category': 'Theme/Creative',
 
-    'depends': ['website'],
+    'depends': ['website', 'website_enterprise', 'web'],
     'data': [
         'views/assets.xml',
     ],
