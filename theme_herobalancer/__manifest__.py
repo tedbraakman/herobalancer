@@ -11,7 +11,8 @@
     ],
     'assets': {
         'web._assets_primary_variables': [
-            'theme_herobalancer/static/scss/primary_variables.scss',
+            ('prepend', 'theme_herobalancer/static/scss/primary_variables.scss'),
+            # 'theme_herobalancer/static/scss/primary_variables.scss',
 
         ],
     }
