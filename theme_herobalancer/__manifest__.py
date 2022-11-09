@@ -15,8 +15,6 @@
             'theme_herobalancer/static/scss/primary_variables.scss',
 
         ],
-        # 'web._assets_backend_helpers': [
-        # ],
         'web.assets_backend': [
             'theme_herobalancer/static/scss/bootstrap_overridden.scss',
             'theme_herobalancer/static/scss/home_menu.scss',

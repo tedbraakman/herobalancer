@@ -1,3 +1,37 @@
+.o_home_menu_background {
+  // 'Home menu background' design is shared with enterprise login
+  // screens and it's located in '/web_enterprise/static/src/scss/ui.scss'
+
+  // When applied on webclient (note: we do not specify the webclient class
+  // here to avoid breaking studio custom style)
+  &:not(.o_home_menu_background_custom) .o_main_navbar {
+    background-color: $o-enterprise-color;
+    border-color: transparent;
+
+    .dropdown-menu {
+      border-color: $dropdown-bg;
+    }
+
+    .o_dropdown_active, > ul > li.show > a {
+      outline: none;
+    }
+  }
+  &.o_home_menu_background_custom .o_home_menu {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+    .o_home_menu {
+    background: no-repeat url("../description/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    
+    
+}
+
 .o_home_menu {
     font-size: $o-font-size-base-touch;
     -webkit-overflow-scrolling: touch; // smooth scrolling in iOS app (Safari)
@@ -65,3 +99,5 @@
       }
     }
   }
+
+  
