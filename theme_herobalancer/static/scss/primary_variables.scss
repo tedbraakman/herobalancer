@@ -1,25 +1,18 @@
-// $o-color-palettes: (
-//     (
-//         'o-color-1': #85AFA8,
-//         'o-color-2': #7E566B,
-//         'o-color-3': #85909A,
-//         'o-color-4': #969397,
-//         'o-color-5': #422335,
-//     ),
-//     (
-//         'o-color-1': #54787D,
-//         'o-color-2': #6B9997,
-//         'o-color-3': #615145,
-//         'o-color-4': #C6CCA5,
-//         'o-color-5': #412342,
-//     ),
-// );
+$o-gray-100: #f6f7fa;
+$o-gray-200: #E0E2E6;
+$o-gray-300: #C9CCD2;
+$o-gray-400: #9DA1AA;
+$o-gray-500: #80848F;
+$o-gray-600: #626774;
+$o-gray-700: #444B5A;
+$o-gray-800: #272E3F;
+$o-gray-900: #091124;
 
-
-//  /home/odoo/src/enterprise/web_enterprise/static/src/legacy/scss/primary_variables.scss
-
-
-$o-community-color: #ff9015;
 $o-enterprise-color: #ff9015;
 $o-enterprise-primary-color: #ff9015;
-$o-brand-odoo: #ff9015
+
+$o-brand-odoo: $o-enterprise-color;
+$o-brand-primary: $o-enterprise-primary-color;
+$o-brand-secondary: #8f8f8f;
+$o-brand-lightsecondary: $o-gray-100;
+

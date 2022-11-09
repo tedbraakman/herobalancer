@@ -10,8 +10,14 @@
     'assets': {
         'web._assets_primary_variables': [
             'theme_herobalancer/static/scss/primary_variables.scss',
-            # 'theme_herobalancer/static/scss/primary_variables.scss',
 
         ],
+        'web._assets_backend_helpers': [
+            'theme_herobalancer/static/scss/bootstrap_overridden.scss',
+        ],
+        'web.assets_backend': [
+            'theme_herobalancer/static/scss/home_menu.scss'
+        ],
+
     }
 }
