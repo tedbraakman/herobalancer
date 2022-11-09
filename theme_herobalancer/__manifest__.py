@@ -7,6 +7,9 @@
 
     'depends': ['website', 'website_enterprise', 'web'],
     'data': [],
+    'images': [
+            'static/description/bookstore_screenshot.jpg',
+    ],
     'assets': {
         'web._assets_primary_variables': [
             'theme_herobalancer/static/scss/primary_variables.scss',
