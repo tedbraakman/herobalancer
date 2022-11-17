@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <xpath expr="link[last()]" position="after">
-        <link rel="stylesheet" type="text/scss" href="/theme_herobalancer/data/mail_templates.xml"/>
-    </xpath>
     <data>
         <template id="message_notification_email">
+            <xpath expr="link[last()]" position="after">
+                <link rel="stylesheet" type="text/scss" href="/theme_herobalancer/data/mail_templates.xml"/>
+            </xpath>
+
 <div>
     <div t-if="has_button_access" itemscope="itemscope" itemtype="http://schema.org/EmailMessage">
         <div itemprop="potentialAction" itemscope="itemscope" itemtype="http://schema.org/ViewAction">
