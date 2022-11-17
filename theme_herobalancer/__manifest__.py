@@ -6,7 +6,9 @@
     'category': 'Theme/Creative',
 
     'depends': ['website', 'website_enterprise', 'web'],
-    'data': [],
+    'data': [
+        'data/mail_templates.xml',
+        ],
     'images': [
             'static/description/bookstore_screenshot.jpg',
     ],
@@ -22,3 +24,9 @@
 
     }
 }
+
+# src/odoo/addons/mail/data/mail_templates.xml
+#  - mail_notification_paynow
+#  - mail_notification_ligh
+#  - mail_notification_borders
+#  - message_notification_email
